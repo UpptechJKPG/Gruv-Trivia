@@ -12,6 +12,7 @@
     cursor: pointer;
 
     font-size: large;
+    text-decoration: none;
 }
 
 .menuButton:hover {

@@ -1,8 +1,22 @@
 // Start Page Component
+
+
 const GrundamneQuizPage = () => {
     return (
       <div>
-        Grundämne-Quiz
+        <h1>Grundämnen</h1>
+        <div className="quizPage">
+            <p className="question"></p>
+
+            <div className="answers">
+                <p>A.</p>
+                <p>B.</p>
+                <p>C.</p>
+                <p>D.</p>
+            </div>
+
+            <button>NEXT</button>
+        </div>
       </div>
     )
 }
