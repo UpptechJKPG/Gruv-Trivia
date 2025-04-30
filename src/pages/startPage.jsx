@@ -1,18 +1,14 @@
 import MenuButton from "../components/menuButton"
 
-const hello = (text) => {
-    console.log(text)
-}
-
 // Start Page Component
 const StartPage = () => {
     return (
       <div className="menuButtons">
-        <MenuButton text="Grundämne-Quiz" onClick={() => hello("Grundämne")} />
-        <MenuButton text="Sten-Quiz" onClick={() => hello("Sten")} />
-        <MenuButton text="Rolig Fakta" onClick={() => hello("Fakta")} />
+        <MenuButton text="Grundämne-Quiz" link="/grundamne" />
+        <MenuButton text="Sten-Quiz" link="/sten" />
+        <MenuButton text="Rolig Fakta" link="/fakta" />
       </div>
     )
-  }
+}
   
-  export default StartPage
+export default StartPage

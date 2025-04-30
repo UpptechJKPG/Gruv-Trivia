@@ -1,10 +1,11 @@
+import { NavLink } from 'react-router-dom';
 import styles from './MenuButton.module.css'
 
-const MenuButton = ({ text, onClick }) => {
+const MenuButton = ({ text, link }) => {
     return (
-        <button className={styles.menuButton} onClick={onClick}>
+        <NavLink className={styles.menuButton} to={link}>
             {text}
-        </button>
+        </NavLink>
     )
 }
 
