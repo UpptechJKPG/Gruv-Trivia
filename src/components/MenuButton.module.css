@@ -1,0 +1,19 @@
+.menuButton {
+    background-color: lightseagreen;
+    color: black;
+
+    border-radius: 20px;
+    border: 1px solid transparent;
+
+    margin: 10px;
+    height: 100px;
+    width: 250px;
+
+    cursor: pointer;
+
+    font-size: large;
+}
+
+.menuButton:hover {
+    background-color: rgb(32, 217, 208);
+}
